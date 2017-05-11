@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hiding all the input elements</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("input").hide();
+    });
+});
+</script>
+</head>
+<body>
+
+	<form name='demo_form'>
+		First name: <input type="text" name="fname"><br>
+		Last name: <input type="text" name="lname"><br>
+		Middle name:<input type="text" name="mname"><br>
+	</form> 
+
+<button id="hide">Hide</button>
+
+
+</body>
+</html>
